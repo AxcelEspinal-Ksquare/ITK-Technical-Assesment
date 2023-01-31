@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title="Contact search">
+        <div class="slds-p-around_medium">
+            Contact name: 
+            <lightning-input 
+            placeholder="Search" 
+            value={inputValue} 
+            onchange={handleChange}
+            style="margin-bottom: 10px;">
+            </lightning-input>
+            <lightning-datatable
+                key-field="Id"
+                data={contacts.data}
+                columns={cols}
+                onrowaction={handleRowAction}
+                hide-checkbox-column="true">
+            </lightning-datatable>
+            <lightning-button name="NewContact" onclick={handleCreate} label="New Contact" variant="brand" style="margin: 5px;"></lightning-button>
+            <c-contact-detail contact={contact}></c-contact-detail>
+        </div>
+    </lightning-card>
+</template>

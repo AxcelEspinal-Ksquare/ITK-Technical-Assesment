@@ -1,0 +1,12 @@
+<template>
+    <div horizontal-align="center">
+        <div>{contact.Name}</div>
+        <div>{contact.Title}</div>  
+        <div>
+            <lightning-formatted-phone value={contact.Phone} ></lightning-formatted-phone>
+        </div>
+        <div>
+            <lightning-formatted-email value={contact.Email} ></lightning-formatted-email>
+        </div>
+    </div>
+</template>
