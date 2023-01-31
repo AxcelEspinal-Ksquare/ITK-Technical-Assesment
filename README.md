@@ -1,6 +1,8 @@
 # Internal Assessment
 Developed by Axcel Espinal (axcel.espinal@itk-square.edu.do)
 
+Acces the org (here)[https://thek-squaregroup-dev-ed.develop.lightning.force.com/]
+
 ## Back-end Practice Assessment
 A technical requirement for a client is to update all related contacts once its parent account is updated.
 However, if the total count of contacts to update in a transaction is greater than 200 records the update
