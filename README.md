@@ -37,6 +37,6 @@ display any contact that begins with the string I typed.
 * I continue to type the full name of the contact, I can either press the “Search” button or hit
 Enter to execute the search
 * The results are displayed in a table showing the following data points:
-** Name
-** Email [Hyperlink to launch email app]
-** Phone Number
+  *  Name
+  * Email [Hyperlink to launch email app]
+  * Phone Number
