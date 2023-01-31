@@ -1,7 +1,7 @@
 # Internal Assessment
 Developed by Axcel Espinal (axcel.espinal@itk-square.edu.do)
 
-Acces the org (here)[https://thek-squaregroup-dev-ed.develop.lightning.force.com/]
+Acces the org here: https://thek-squaregroup-dev-ed.develop.lightning.force.com/
 
 ## Back-end Practice Assessment
 A technical requirement for a client is to update all related contacts once its parent account is updated.
